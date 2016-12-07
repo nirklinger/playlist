@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="urn:mpeg:dash:schema:mpd:2011"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
+     profiles="urn:mpeg:dash:profile:isoff-live:2011"
+     type="static"
+     publishTime="2016-11-06T08:17:31Z"
+     mediaPresentationDuration="PT2M40.8S"
+     minBufferTime="PT1.5S">
+    <Period id="0" start="PT0.0S">
+    	<BaseURL>http://vod.linnovate.net:1935/weplay/weplay/berlad/smil:berlad.smil/</BaseURL>
+        <AdaptationSet id="0" mimeType="video/mp4" maxWidth="1280" maxHeight="720" par="16:9" frameRate="25" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+            <SegmentTemplate presentationTimeOffset="5328000" timescale="90000" media="chunk_ctvideo_cfm4s_rid$RepresentationID$_cs$Time$_w521854188_ps60000_pd120000_mpd.m4s" initialization="chunk_ctvideo_cfm4s_rid$RepresentationID$_cinit_w521854188_ps60000_pd120000_mpd.m4s">
+                <SegmentTimeline>
+                    <S t="5328000" d="1134000"/>
+                    <S d="1015200"/>
+                    <S d="914400"/>
+                    <S d="900000"/>
+                    <S d="907200"/>
+                    <S d="972000"/>
+                    <S d="900000"/>
+                    <S d="1371600"/>
+                    <S d="961200"/>
+                    <S d="1173600"/>
+                    <S d="622800"/>
+                </SegmentTimeline>
+            </SegmentTemplate>
+            <Representation id="p0a0r0" codecs="avc1.64001f" width="1280" height="720" sar="1:1" bandwidth="1274000" />
+            <Representation id="p0a0r1" codecs="avc1.64001e" width="720" height="480" sar="1:1" bandwidth="614000" />
+        </AdaptationSet>
+        <AdaptationSet id="1" mimeType="audio/mp4" lang="eng" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+            <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+            <SegmentTemplate presentationTimeOffset="2610720" timescale="44100" media="chunk_ctaudio_cfm4s_rid$RepresentationID$_cs$Time$_w521854188_ps60000_pd120000_mpd.m4s" initialization="chunk_ctaudio_cfm4s_rid$RepresentationID$_cinit_w521854188_ps60000_pd120000_mpd.m4s">
+                <SegmentTimeline>
+                    <S t="2610720" d="555660"/>
+                    <S d="497448"/>
+                    <S d="448056"/>
+                    <S d="441000"/>
+                    <S d="444528"/>
+                    <S d="476280"/>
+                    <S d="441000"/>
+                    <S d="597996"/>
+                    <S d="479808"/>
+                    <S d="467460"/>
+                    <S d="478044"/>
+                </SegmentTimeline>
+            </SegmentTemplate>
+            <Representation id="p0a1r0" codecs="mp4a.40.2" audioSamplingRate="44100" bandwidth="125000">
+                <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet id="2" mimeType="text/vtt" lang="eng" >
+            <Representation id="caption_eng" bandwidth="1100">
+                <BaseURL>subtitles_leng_webvttsublist.m4s</BaseURL>
+            </Representation>
+        </AdaptationSet>
+    </Period>
+    <Period id="1" start="PT123.0S">
+    	<BaseURL>http://vod.linnovate.net:1935/weplay/weplay/BigBuckBunny/smil:BigBuckBunny.smil/</BaseURL>
+        <AdaptationSet id="0" mimeType="video/mp4" maxWidth="1920" maxHeight="1080" par="16:9" frameRate="24" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+            <SegmentTemplate presentationTimeOffset="2700000" timescale="90000" media="chunk_ctvideo_cfm4s_rid$RepresentationID$_cs$Time$_w923459739_ps30000_pd40000_mpd.m4s" initialization="chunk_ctvideo_cfm4s_rid$RepresentationID$_cinit_w923459739_ps30000_pd40000_mpd.m4s">
+                <SegmentTimeline>
+                    <S t="2700000" d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                </SegmentTimeline>
+            </SegmentTemplate>
+            <Representation id="p0a0r0" codecs="avc1.640028" width="1920" height="1080" sar="1:1" bandwidth="2479000" />
+            <Representation id="p0a0r1" codecs="avc1.64001f" width="1280" height="720" sar="1:1" bandwidth="1780000" />
+            <Representation id="p0a0r2" codecs="avc1.4d401e" width="854" height="480" sar="1:1" bandwidth="655000" />
+        </AdaptationSet>
+        <AdaptationSet id="1" mimeType="audio/mp4" lang="eng" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+            <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+            <SegmentTemplate presentationTimeOffset="1323000" timescale="44100" media="chunk_ctaudio_cfm4s_rid$RepresentationID$_cs$Time$_w923459739_ps30000_pd40000_mpd.m4s" initialization="chunk_ctaudio_cfm4s_rid$RepresentationID$_cinit_w923459739_ps30000_pd40000_mpd.m4s">
+                <SegmentTimeline>
+                    <S t="1323000" d="441000"/>
+                    <S d="441000"/>
+                    <S d="441000"/>
+                    <S d="441000"/>
+                </SegmentTimeline>
+            </SegmentTemplate>
+            <Representation id="p0a1r0" codecs="mp4a.40.2" audioSamplingRate="44100" bandwidth="125000">
+                <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+            </Representation>
+            <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+            <Representation id="p0a1r1" codecs="mp4a.40.2" audioSamplingRate="44100" bandwidth="192000">
+                <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet id="2" mimeType="text/vtt" lang="eng" >
+            <Representation id="caption_eng" bandwidth="1100">
+                <BaseURL>subtitles_leng_webvttsublist.m4s</BaseURL>
+            </Representation>
+        </AdaptationSet>
+    </Period>
+</MPD>

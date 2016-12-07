@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="urn:mpeg:dash:schema:mpd:2011"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
+     profiles="urn:mpeg:dash:profile:isoff-live:2011"
+     type="static"
+     publishTime="2016-11-02T12:42:53Z"
+     mediaPresentationDuration="PT11M34.633S"
+     minBufferTime="PT2S">
+    <Period id="0" start="PT0.0S">
+    	<BaseURL>http://vod.linnovate.net:1935/weplay/weplay/sample.mp4/</BaseURL>
+        <AdaptationSet id="0" mimeType="video/mp4" width="512" height="288" par="16:9" frameRate="30" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+            <SegmentTemplate presentationTimeOffset="0" timescale="90000" media="chunk_ctvideo_cfm4s_rid$RepresentationID$_cs$Time$_w1769213771_mpd.m4s" initialization="chunk_ctvideo_cfm4s_rid$RepresentationID$_cinit_w1769213771_mpd.m4s">
+                <SegmentTimeline>
+                    <S t="0" d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="416970"/>
+                </SegmentTimeline>
+            </SegmentTemplate>
+            <Representation id="p0a0r0" codecs="avc1.42c015" sar="1:1" bandwidth="640000">
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet id="1" mimeType="audio/mp4" lang="eng" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+            <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+            <SegmentTemplate presentationTimeOffset="0" timescale="48000" media="chunk_ctaudio_cfm4s_rid$RepresentationID$_cs$Time$_w1769213771_mpd.m4s" initialization="chunk_ctaudio_cfm4s_rid$RepresentationID$_cinit_w1769213771_mpd.m4s">
+                <SegmentTimeline>
+                    <S t="0" d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="222384"/>
+                </SegmentTimeline>
+            </SegmentTemplate>
+            <Representation id="p0a1r0" codecs="mp4a.40.2" audioSamplingRate="48000" bandwidth="96000">
+                <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+            </Representation>
+        </AdaptationSet>
+    </Period>
+    <Period id="1" start="PT633S">
+    	<BaseURL>http://vod.linnovate.net:1935/weplay/weplay/sample1.mp4/</BaseURL>
+        <AdaptationSet id="0" mimeType="video/mp4" width="512" height="288" par="16:9" frameRate="30" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+            <SegmentTemplate presentationTimeOffset="2700000" timescale="90000" media="chunk_ctvideo_cfm4s_rid$RepresentationID$_cs$Time$_w1849515868_ps30000_pd60000_mpd.m4s" initialization="chunk_ctvideo_cfm4s_rid$RepresentationID$_cinit_w1849515868_ps30000_pd60000_mpd.m4s">
+                <SegmentTimeline>
+                    <S t="2700000" d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                    <S d="900000"/>
+                </SegmentTimeline>
+            </SegmentTemplate>
+            <Representation id="p0a0r0" codecs="avc1.42c015" sar="1:1" bandwidth="640000" />
+        </AdaptationSet>
+        <AdaptationSet id="1" mimeType="audio/mp4" lang="eng" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+            <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+            <SegmentTemplate presentationTimeOffset="1440000" timescale="48000" media="chunk_ctaudio_cfm4s_rid$RepresentationID$_cs$Time$_w1849515868_ps30000_pd60000_mpd.m4s" initialization="chunk_ctaudio_cfm4s_rid$RepresentationID$_cinit_w1849515868_ps30000_pd60000_mpd.m4s">
+                <SegmentTimeline>
+                    <S t="1440000" d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                    <S d="480000"/>
+                </SegmentTimeline>
+            </SegmentTemplate>
+            <Representation id="p0a1r0" codecs="mp4a.40.2" audioSamplingRate="48000" bandwidth="96000">
+                <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+            </Representation>
+        </AdaptationSet>
+    </Period>
+</MPD>

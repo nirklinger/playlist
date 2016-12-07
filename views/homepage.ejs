@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+   <script src="http://cdn.dashjs.org/latest/dash.all.min.js"></script>
+<style>
+    video {
+       width: 640px;
+       height: 360px;
+    }
+</style>
+<head>
+<script src="videoLogic.js">
+/*var videos="0_aw8r1vvk_0_p12z7qnp_2.mp4,sample1.mp4".split(",");
+next=-1;
+
+function end(e)
+{
+var video = document.getElementById("video1");
+
+if (++next==videos.length)
+	return;
+var url = "http://178.79.165.97:1935/weplay/weplay/"+videos[next]+"/manifest.mpd";
+var player = dashjs.MediaPlayer().create();
+player.initialize(document.querySelector("#video1"), url, true);
+}*/
+</script>
+</head>
+<body>
+   <div>
+       <video id="video" data-dashjs-player></video>
+   </div>
+    <div id="video-controls">
+    <button type="button" id="play-pause">Play</button>
+    <input type="range" id="seek-bar" value="0">
+    <button type="button" id="mute">Mute</button>
+    <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+    <button type="button" id="full-screen">Full-Screen</button>
+  </div>
+</div>
+</body>
+</html>
